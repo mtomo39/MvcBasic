@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MvcBasic", "MvcBasic\MvcBasic.vbproj", "{199640AF-A39F-406E-B358-966D880B8E53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBasic", "MvcBasic\MvcBasic.csproj", "{F60556F2-F288-4CFE-8F22-B31B3AB86F16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{199640AF-A39F-406E-B358-966D880B8E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{199640AF-A39F-406E-B358-966D880B8E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{199640AF-A39F-406E-B358-966D880B8E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{199640AF-A39F-406E-B358-966D880B8E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60556F2-F288-4CFE-8F22-B31B3AB86F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60556F2-F288-4CFE-8F22-B31B3AB86F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60556F2-F288-4CFE-8F22-B31B3AB86F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60556F2-F288-4CFE-8F22-B31B3AB86F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9BBCB2A9-18C8-472C-96C8-6FCD23AB9EA7}
+		SolutionGuid = {96D5008F-85C5-40EB-839F-017FA2A7EFA9}
 	EndGlobalSection
 EndGlobal
