@@ -6,7 +6,8 @@ using System.Data.Entity;
 
 namespace MvcBasic.Models
 {
-    public class MvcBasicInitializer:DropCreateDatabaseAlways<MvcBasicContext>
+    //public class MvcBasicInitializer:DropCreateDatabaseAlways<MvcBasicContext>
+    public class MvcBasicInitializer:DropCreateDatabaseIfModelChanges<MvcBasicContext>
     {
         protected override void Seed(MvcBasicContext context)
         {

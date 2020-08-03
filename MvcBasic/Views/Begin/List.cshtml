@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MvcBasic.Models.Member>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<table class ="table">
+    <tr>
+        <th>氏名</th>
+        <th>メールアドレス</th>
+        <th>誕生日</th>
+        <th>既婚</th>
+        <th>備考</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Birth</td>
+            <td>@item.Married</td>
+            <td>@item.Memo</td>
+        </tr>
+    }
+</table>
