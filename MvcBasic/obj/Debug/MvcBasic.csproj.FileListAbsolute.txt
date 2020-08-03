@@ -79,7 +79,6 @@ C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\ja\System.Web.Razor.resources.
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\ja\System.Web.WebPages.resources.dll
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\ja\System.Web.WebPages.Deployment.resources.dll
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\ja\System.Web.WebPages.Razor.resources.dll
-C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\obj\Debug\MvcBasic.csprojAssemblyReference.cache
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\obj\Debug\MvcBasic.csproj.CoreCompileInputs.cache
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\obj\Debug\MvcBasic.csproj.CopyComplete
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\obj\Debug\MvcBasic.dll
