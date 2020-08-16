@@ -87,3 +87,4 @@ C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\EntityFramework.dll
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\EntityFramework.SqlServer.dll
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\EntityFramework.xml
 C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\bin\EntityFramework.SqlServer.xml
+C:\Users\mtomo\source\repos\MvcBasic\MvcBasic\obj\Debug\MvcBasic.csprojAssemblyReference.cache

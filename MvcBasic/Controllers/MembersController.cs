@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
+//using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using MvcBasic.Models;
-using EntityState = System.Data.Entity.EntityState;
 
 namespace MvcBasic.Controllers
 {
@@ -110,8 +109,13 @@ namespace MvcBasic.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Member member = db.Members.Find(id);
-            db.Members.Remove(member);
+            //// もとのコード
+            //Member member = db.Members.Find(id);
+            //db.Members.Remove(member);
+            // パフォーマンス重視
+            var member = new Member() { Id = id };
+            db.Entry(member).State = EntityState.Deleted;
+
             db.SaveChanges();
             return RedirectToAction("Index");
         }
